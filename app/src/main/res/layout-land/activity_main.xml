@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_normal"
+    tools:context="com.example.user.calculator.ui.activities.MainActivity"
+    >
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/expressionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/spacing_normal"
+        android:padding="@dimen/spacing_small"
+        android:gravity="end"
+        android:singleLine="true"
+        style="@style/ExpressionStyle"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/clearButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/option_clear"
+            />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/backspaceButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:src="@drawable/ic_backspace"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/sevenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/seven"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/eightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/eight"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/nineButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nine"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/openBracketButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/option_open_bracket"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/closeBracketButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/option_close_bracket"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/divButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/div"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/fourButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/four"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/fiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/five"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/sixButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/six"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/pointButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/point"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/plusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/plus"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/multiplicationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/multiplication"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/oneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/one"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/twoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/two"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/threeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/three"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/zeroButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/zero"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/subButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sub"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/equalsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/option_equals"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

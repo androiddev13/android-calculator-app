@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Numbers. -->
+    <string name="zero" translatable="false">0</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+
+    <!-- Math operations. -->
+    <string name="div" translatable="false">\u002F</string>
+    <string name="multiplication" translatable="false">\u002A</string>
+    <string name="sub" translatable="false">\u002D</string>
+    <string name="plus" translatable="false">\u002B</string>
+    <string name="point" translatable="false">\u002E</string>
+
+    <!-- -->
+    <string name="option_equals" translatable="false">\u003D</string>
+    <string name="option_open_bracket" translatable="false">\u0028</string>
+    <string name="option_close_bracket" translatable="false">\u0029</string>
+    <string name="option_clear">Clear</string>
+
+    <!-- Messages. -->
+    <string name="message_expression_error">Illegal expression</string>
+
+</resources>
